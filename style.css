@@ -2,16 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(255, 247, 247);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
     height: 100vh;
 }
 
 .header {
-    border: 1px solid black;
+    display:grid;
+    grid-template-columns: 2fr 1.5fr 2fr;
+}
+
+.left_header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 4em;
+    padding: .25em;
+}
+
+.icons_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+}
+
+.icons_list li a .fa {
+    color: rgb(3, 187, 187);
+    padding: .25em;
+    transition: .25s;
+}
+
+.icons_list li a :hover{
+    font-size: 120%;
+    transition: .25s;
+}
+
+.center_header {
+    background-image: url("bioProf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right_header {
+    text-align: center;
+    align-self: center;
+}
+
+.right_header_list {
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 2em;
+    list-style: none;
+}
+
+.right_header_list a{
+    text-decoration: none;
+    color: black;
+}
+
+.right_header_list :hover{
+    color: rgb(3, 187, 187);
+    transition: .5s;
 }
 
 .about {
