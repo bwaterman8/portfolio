@@ -115,8 +115,25 @@
 
 .experience_content {
     text-align: center;
-    padding: 1em;
+    padding-top: .5em;
     font-size: 5em;
+    padding-bottom: 1em;
+}
+
+#javascript {
+    color: rgb(241, 241, 12);
+}
+
+#html {
+    color: rgb(202, 53, 53);
+}
+
+#css {
+    color: rgb(57, 57, 199);
+}
+
+#vue {
+    color: rgb(56, 150, 106);
 }
 
 .projects {
