@@ -71,8 +71,19 @@
     transition: .5s;
 }
 
-.about {
-    border: 1px solid blue;
+#about {
+}
+
+.about_title {
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.about_content {
+    text-align: center;
+    padding: 1em;
+
 }
 
 .experience {
