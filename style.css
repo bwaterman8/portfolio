@@ -15,6 +15,7 @@
 .header {
     display:grid;
     grid-template-columns: 2fr 1.5fr 2fr;
+    margin-top: 1em;
 }
 
 .left_header {
@@ -91,11 +92,31 @@
 .about_content {
     text-align: center;
     padding: 1em;
-
+    font-size: 25px;
 }
 
 .experience {
     border: 1px solid red;
+}
+
+.experience_title {
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+.experience_line {
+    border: 1px solid black;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+}
+
+.experience_content {
+    text-align: center;
+    padding: 1em;
+    font-size: 5em;
 }
 
 .projects {
