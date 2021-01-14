@@ -78,6 +78,14 @@
     font-size: 2em;
     padding: 1em;
     text-align: center;
+    position: relative;
+}
+
+.about_line {
+    border: 1px solid black;
+    width: 400px;
+    position: absolute;
+    left: 35%;
 }
 
 .about_content {
