@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 247, 247);
     font-family: 'Quicksand', sans-serif;
 }
 
 .container {
     display: grid;
     grid-template-rows: 2fr 1fr 1fr 1fr;
-    height: 100vh;
+    background-color: rgb(235, 222, 222);
+
 }
 
 .header {
     display:grid;
     grid-template-columns: 2fr 1.5fr 2fr;
     margin-top: 1em;
+    box-shadow: 5px 5px 10px 0px #888888;
+    background-color: wheat;
+    height: 60vh;
 }
 
 .left_header {
@@ -46,14 +49,14 @@
 .center_header {
     background-image: url("bioProf.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 90% 90%;
     background-position: center;
 }
 
 .right_header {
     text-align: center;
     align-self: center;
-}
+    }
 
 .right_header_list {
     font-size: 2em;
@@ -73,6 +76,7 @@
 }
 
 #about {
+
 }
 
 .about_title {
@@ -95,13 +99,11 @@
     font-size: 25px;
 }
 
-.experience {
-    border: 1px solid red;
+#experience {
 }
 
 .experience_title {
     font-size: 2em;
-    padding: 1em;
     text-align: center;
     position: relative;
 }
@@ -136,6 +138,34 @@
     color: rgb(56, 150, 106);
 }
 
-.projects {
-    border: 1px solid green;
+#projects {
+}
+
+.pojects_title {
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+.projects_line {
+    border: 1px solid black;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+}
+
+.projects_content {
+    text-align: center;
+    padding-top: .5em;
+    font-size: 5em;
+    padding-bottom: 1em;
+}
+
+.cookie {
+    
+}
+
+.cookie :hover {
+    
 }
