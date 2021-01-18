@@ -47,7 +47,7 @@
 }
 
 .center_header {
-    background-image: url("bioProf.jpg");
+    background-image: url("./images/bioProf.jpg");
     background-repeat: no-repeat;
     background-size: 90% 90%;
     background-position: center;
